@@ -51,3 +51,11 @@ h3 {
 	color: #505050;
 	margin: 0;
 }
+
+header {
+	background-color: #FA5A0F
+	color: #FFFFFF;
+	padding: 1em;
+	border-bottom-color: #EA4A00;
+	border-bottom-width: 5px;
+}
