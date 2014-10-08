@@ -9,21 +9,12 @@ body {
 	background-attachment: fixed;
 }
 
-a:link { 
+a:link, a:visited { 
     color: #0000AA;
     text-decoration: none
 }
 
-a:visited { 
-    color: #0000AA;
-    text-decoration: none
-}
-
-a:hover { 
-    color: #0000EE;
-}
-
-input:focus { 
+input:focus, a:hover { 
     color: #0000EE;
 }
 
@@ -49,10 +40,19 @@ h3 {
 	margin: 0;
 }
 
-header {
+.header {
 	background-color: #FA5A0F
 	color: #FFFFFF;
 	padding: 1em;
 	border-bottom-color: #EA4A00;
 	border-bottom-width: 5px;
+}
+
+.main {
+	margin-left: 30%;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: url('../img/ricepaper_v3.jpg');
+	opacity: 0.9;
 }
