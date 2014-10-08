@@ -2,9 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 body {
-	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-size: 18px;
-	font-weight: 300;
 	
 	background: url('../img/background.jpg');
 	background-size: 100%;
@@ -29,25 +27,24 @@ input:focus {
     color: #0000EE;
 }
 
-h1 {
+body, h1, h2, h3 {
 	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-	font-size: 300%;
 	font-weight: 300;
+}
+
+h1 {
+	font-size: 300%;
 	margin: 0;
 }
 
 h2 {
-	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-size: 150%;
-	font-weight: 300;
 	color: #505050;
 	margin: 0;
 }
 
 h3 {
-	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-size: 125%;
-	font-weight: 300;
 	color: #505050;
 	margin: 0;
 }
